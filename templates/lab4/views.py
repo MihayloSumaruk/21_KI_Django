@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     """Головна сторінка з посиланнями на всі інші сторінки"""
-    return render(request, 'lab4/index.html')
+    return render(request, 'lab4/main_page.html')
 
 
 def about(request):

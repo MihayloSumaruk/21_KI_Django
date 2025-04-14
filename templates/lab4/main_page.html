@@ -1,8 +1,8 @@
 {% extends 'lab4/base.html' %}
 
-{% block title %}Головна сторінка - Лабораторна робота 4{% endblock %}
+{% block title %}KeyTopia{% endblock %}
 
-{% block header %}Головна сторінка{% endblock %}
+{% block header %}KeyTopia - ваш світ клавіатур !{% endblock %}
 
 {% block content %}
     <p>Ласкаво просимо до лабораторної роботи 4!</p>
@@ -10,7 +10,7 @@
     <ul>
         <li><a href="{% url 'lab4:about' %}">Про нас</a></li>
         <li><a href="{% url 'lab4:contact' %}">Контакти</a></li>
-        <li><a href="{% url 'lab4:projects' %}">Проєкти</a></li>
+        <li><a href="{% url 'lab4:projects' %}">Товари</a></li>
         <li><a href="{% url 'lab4:services' %}">Послуги</a></li>
     </ul>
 {% endblock %}
